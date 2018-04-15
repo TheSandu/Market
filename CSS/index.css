@@ -1,0 +1,129 @@
+*{
+	font-family: 'Signika', sans-serif;
+}
+.inline{
+	display: inline-block;
+}
+form{
+	display: inline-block;
+}
+#left{
+		float: right;
+}
+input[name=exit]{
+	margin: 2px 0 0 2px;
+	height: 53px;
+	width: 100px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1);
+	border: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(https://openclipart.org/download/223635/Exit-by-Rones.svg);
+
+}
+button.sets{
+	margin: 2px 0 0 2px;
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px rgba(0,0,0,1);
+	border: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/128/Folders-OS-Configure-alt-1-Metro-icon.png);
+}
+button:hover{
+	margin: 4px 0 0 4px;
+	box-shadow: 0px 0px 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin: 0px 5px;
+	-moz-transition:color ease 0.3s;
+	transition:color ease 0.3s;
+}
+a:hover{
+	color:red;
+}
+hr{
+	margin: 2px;
+	color: black;
+	border: 1px solid black;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+  background-color: #b6b6b6;
+}
+
+#header,#footer{
+	/*background-color: #dedede;*/
+	height: 50px;
+	width: 100%;
+}
+
+.ascuns{
+	width: 70px;
+}
+
+.title{
+	background-color: #844EFF;
+}
+
+#contain{
+	min-height: 555px;
+}
+
+.lable{
+	position: relative;
+	text-align: center;
+	margin: 5px;
+	font-size: 25px;
+	height: 50px;
+	cursor: pointer;
+	width: 200px;
+	background-color: #063EFF;
+}
+/*
+input{
+	border: none ;
+	margin: 3px;
+	height: 30px;
+	width: 250px;
+}
+*/
+td{
+	border: none ;
+	background-color: #BFBFBF;
+	margin: 3px;
+	height: 30px;
+	width: 250px;
+}
+th{
+	background-color: #844EFF;
+	height: 30px;
+
+}
+
+input/*[type=submit]*/{
+  box-shadow:0 2px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	border: none ;
+	margin: 3px;
+	height: 30px;
+	width: 250px;
+	cursor: pointer;
+}
+
+select{
+  box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+	margin: 3px;
+	background-color: #fff;
+	border: none ;
+	height: 30px;
+	width: 250px;
+}
